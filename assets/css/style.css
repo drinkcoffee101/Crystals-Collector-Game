@@ -1,0 +1,55 @@
+
+
+/*=============================================
+=                  Selectors                  =
+=============================================*/
+img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+/* =============================================
+=                      IDs                     =
+============================================= */
+#usertotaldisplay {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+/* =============================================
+=                     Classes                 =
+============================================= */
+.flex-container1 {
+    display: flex;
+    background-color: DodgerBlue;
+    margin: 10px;
+}
+.flex-container1 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+
+
+
+
+
+
+

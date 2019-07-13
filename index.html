@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/assets/css/reset.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    <title>Crystal Game</title>
 </head>
 <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="/assets/javascript/game.js"></script>
+
     <!-- /*=====  Javascript  ======*/ -->
     
+
+        <!-- lines up the target number and the wins/losses -->
+        <div class="flex-container1">
+            <div id="targetnumberdisplay">Number to get</div>
+            <div><p id="wins">Wins: 0</p><p id="losses">Losses: 0</p></div>
+        </div>
+
+        <!-- the clickable cyrstal images -->
+        <div class="flex-container1">
+            <img id="crystal1" src="assets/images/blue crystal.jpg">
+            <img id="crystal2" src="assets/images/green crystal.jpg">
+            <img id="crystal3" src="assets/images/purple crystal.jpg">
+            <img id="crystal4" src="assets/images/red crystal.jpg">
+        </div>
+
+        <div id="usertotaldisplay">0</div>
+
+
+ 
     
     
 </body>
